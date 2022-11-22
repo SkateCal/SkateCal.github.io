@@ -7,6 +7,19 @@
 // Scripts
 // 
 
+
+console.log('hey world')
+
+console.log('ok now,..?')
+
+const md = new showdown.Converter({
+    openLinksInNewWindow: true
+});
+
+
+
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
