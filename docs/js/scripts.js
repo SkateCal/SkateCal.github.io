@@ -18,6 +18,12 @@ const md = new showdown.Converter({
 
 
 
+fetch('/groups.md')
+    .then(response => response.text())
+    .then((data) => {
+        d3.select("#groups div.container").append("div").html(md.makeHtml(data))
+    });
+
 
 
 window.addEventListener('DOMContentLoaded', event => {
