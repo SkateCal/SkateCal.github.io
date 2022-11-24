@@ -8,9 +8,7 @@
 // 
 
 
-console.log('hey world')
-
-console.log('ok now,..?')
+console.log('Running scripts.js')
 
 const md = new showdown.Converter({
     openLinksInNewWindow: true
